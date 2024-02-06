@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeLead</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/colorTypes.css">
+</head>
+
+<body>
+    <div id="allContent" class="allContent">
+        <header class="header">
+            <h1 class="title">PokeLead</h1>
+            <div class="modoNoturno">
+                <p>Modo Noturno :</p>
+                <input id="checkboxModoNoturno" class="InputModoNoturno" type="checkbox">
+            </div>
+        </header>
+        <main>
+            <div id="mainContent" class="mainContent">
+                <img src="#" alt="pokemon" class="pokemonImage">
+                <div class="displayName">
+                    <span class="pokemonNumber"></span> -
+                    <span class="pokemonName"></span>
+                </div>
+                <section class="inputSearchBox">
+                    <form class="form">
+                        <img class="lupa" src="./images/lupa.png" alt="lupa">
+                        <input class="inputNamePokemon" type="text" placeholder="Digite o nome do Pokémon aqui!" required>
+                    </form>
+                </section>
+                <p class="textoExplicativo">Com essa página, podemos conferir as fraquezas e vantagens dos Pokémons
+                    pesquisados! <br> Certifique-se de digitar o nome corretamente.</p>
+            </div>
+        </main>
+    </div>
+
+</body>
+    <script src="./js/main.js"></script>
+    <script src="./js/modoNoturno.js"></script>
+
+</html>

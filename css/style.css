@@ -1,0 +1,142 @@
+.allContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    
+}
+
+.mainContent {
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    min-width: 380px;
+    top: 15%;
+    left: 25%;
+    position: absolute;
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    min-width: 600px;
+    font-family: 'Press Start 2P', system-ui;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+.title {
+    font-size: 1.7em;
+    padding-left: 10px;
+}
+
+.charizard{
+    height: 300px;
+    width: 400px;  
+}
+
+.inputSearchBox{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputNamePokemon {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.lupa{
+    width: 30px;
+    padding: 1px;
+    height: 30px;
+}
+
+.textoExplicativo{
+    font-size: 20px;
+}
+
+.modoNoturno{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px; 
+    font-size: 11px;
+    text-align: center;    
+}
+
+ul{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tituloUl{
+    font-size: 14px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.fotoPokemon{
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+}
+
+form{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.displayName{
+    width: 400px;
+    height: 30px;
+}
+
+.pokemonImage{
+    width: 200px;
+    height: 200px;
+}
+
+.paginaModoNoturno{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.bodyModoNoturno{
+    background: linear-gradient(to right, #2c2c2c, #3d3d3d);
+}
+
+.headerModoNoturno{
+    color: white;
+    background-color: rgb(145, 1, 1);
+}
