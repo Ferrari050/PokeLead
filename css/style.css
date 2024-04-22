@@ -1,7 +1,7 @@
 .allContent{
     display: flex;
     flex-direction: column;
-    min-width: 400px;
+    width: 420px;
     height: 100%;
     gap: 50px;
     
@@ -9,7 +9,7 @@
 
 .mainContent {
     margin: 0 auto;
-    width: 50%;
+    width: 400px%;
     height: 600px;
     border: 1px solid black;
     display: flex;
