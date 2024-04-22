@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 420px;
-    height: 700%;
+    height: 700px;
     gap: 50px;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    border: 0;
 }
 
 .mainContent {
@@ -32,7 +34,8 @@
     height: 60px;
     width: 100%;
     font-family: 'Press Start 2P', system-ui;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
+    position: absolute;
 }
 
 .title {
