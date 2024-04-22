@@ -35,8 +35,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 60px;
-    width: 100%;
-    min-width: 600px;
+    max-width: 420px;
     font-family: 'Press Start 2P', system-ui;
     top: 0%;
     left: 0%;
