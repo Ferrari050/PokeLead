@@ -1,15 +1,17 @@
 .allContent{
     display: flex;
     flex-direction: column;
-    width: 420px;
+    max-width: 420px;
     height: 100%;
     gap: 50px;
-    
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .mainContent {
     margin: 0 auto;
-    width: 400px%;
+    width: 400px;
     height: 600px;
     border: 1px solid black;
     display: flex;
