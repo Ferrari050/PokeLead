@@ -1,8 +1,8 @@
 .allContent{
     display: flex;
     flex-direction: column;
-    max-width: 420px;
-    height: 100%;
+    width: 420px;
+    height: 700%;
     gap: 50px;
     margin: 0 auto;
     justify-content: center;
@@ -35,7 +35,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 60px;
-    max-width: 420px;
+    width: 420px;
     font-family: 'Press Start 2P', system-ui;
     top: 0%;
     left: 0%;
